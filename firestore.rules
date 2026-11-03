@@ -1,0 +1,38 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // The timeline's owner. Keep in step with OWNER_UID in src/firebaseConfig.ts.
+    function isOwner() {
+      return request.auth != null && request.auth.uid == 'VkBC5LjAlKOZ5oCc9liONjukrVE2';
+    }
+
+    // The timeline content, mirrored from seed/ by the owner's browser (see src/sync.ts).
+    // Anyone with the link can read it; only the owner can change it.
+    match /{col}/{id} {
+      allow read: if col in ['events', 'people', 'places', 'power', 'links', 'milestones', 'meta', 'photos', 'personEdits'];
+      allow write: if isOwner() && col in ['events', 'people', 'places', 'power', 'links', 'milestones', 'meta'];
+    }
+
+    // Bust photos, one JPEG data URL per person, added from a dossier. Firestore documents
+    // top out at 1 MiB; the page shrinks photos to well under that.
+    match /photos/{personId} {
+      allow delete: if isOwner();
+      allow create, update: if isOwner()
+        && request.resource.data.keys().hasOnly(['data', 'updatedAt'])
+        && request.resource.data.data is string
+        && request.resource.data.data.size() < 900000;
+    }
+
+    // Edits to people made on the page: just the fields that differ from seed/, shown on top
+    // of it. The seed/ sync leaves this collection alone (see src/app.ts, "Editing people").
+    match /personEdits/{personId} {
+      allow delete: if isOwner();
+      allow create, update: if isOwner()
+        && request.resource.data.keys().hasOnly(['name', 'short', 'life', 'born', 'died', 'role', 'faction', 'summary', 'moments', 'fate', 'sub', 'updatedAt'])
+        && (!('born' in request.resource.data) || request.resource.data.born is int)
+        && (!('died' in request.resource.data) || request.resource.data.died is int)
+        && (!('moments' in request.resource.data) || request.resource.data.moments is list);
+    }
+  }
+}

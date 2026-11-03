@@ -1,0 +1,23 @@
+{
+  "adoptedBy": [],
+  "context": false,
+  "kind": "main",
+  "parents": [],
+  "siblings": [],
+  "spouses": [],
+  "sub": "",
+  "tree": null,
+  "name": "Arminius",
+  "short": "Arminius",
+  "born": -18,
+  "died": 21,
+  "life": "c. 18 BCE – 21 CE",
+  "role": "Germanic chieftain",
+  "faction": "enemy",
+  "summary": "A prince of the Cherusci who served as an officer in the Roman army, then led the Germanic tribes against it.",
+  "moments": [
+    "Commands Germanic troops for Rome",
+    "Destroys Varus' three legions in the Teutoburg Forest, 9 CE"
+  ],
+  "fate": "Murdered by his own kinsmen in 21 CE."
+}

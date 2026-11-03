@@ -1,0 +1,26 @@
+{
+  "adoptedBy": [],
+  "born": -20,
+  "context": false,
+  "died": 4,
+  "faction": "family",
+  "fate": "",
+  "kind": "link",
+  "life": "20 BCE – 4 CE",
+  "moments": [],
+  "name": "Gaius Caesar",
+  "parents": [
+    "agrippa",
+    "julia-e"
+  ],
+  "role": "Augustus' grandson",
+  "short": "Gaius Caesar",
+  "siblings": [],
+  "spouses": [],
+  "sub": "Augustus' adopted heir",
+  "summary": "",
+  "tree": {
+    "x": 400,
+    "y": 600
+  }
+}

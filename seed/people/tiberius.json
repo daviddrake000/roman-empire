@@ -1,0 +1,36 @@
+{
+  "adoptedBy": [
+    "augustus"
+  ],
+  "born": -42,
+  "context": false,
+  "died": 37,
+  "faction": "caesarians",
+  "fate": "Ruled until his death at Misenum in 37 CE.",
+  "kind": "main",
+  "life": "42 BCE – 37 CE",
+  "moments": [
+    "Forced to divorce his wife Vipsania and marry Augustus' daughter Julia, 11 BCE",
+    "Withdraws to Rhodes, 6 BCE",
+    "Adopted by Augustus, 4 CE",
+    "Made co-ruler, 13 CE",
+    "Becomes emperor, 14 CE"
+  ],
+  "name": "Tiberius",
+  "parents": [
+    "nero",
+    "livia"
+  ],
+  "role": "Second Roman emperor",
+  "short": "Tiberius",
+  "siblings": [],
+  "spouses": [
+    "julia-e"
+  ],
+  "sub": "",
+  "summary": "Son of Livia from her first marriage, so Augustus' stepson. A successful general who became the reluctant heir.",
+  "tree": {
+    "x": 130,
+    "y": 460
+  }
+}

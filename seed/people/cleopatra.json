@@ -1,0 +1,29 @@
+{
+  "adoptedBy": [],
+  "born": -69,
+  "context": true,
+  "died": -30,
+  "faction": "egypt",
+  "fate": "Took her own life in August 30 BCE, traditionally by the bite of an asp.",
+  "kind": "main",
+  "life": "69–30 BCE",
+  "moments": [
+    "Has a son, Caesarion, with Julius Caesar",
+    "Allies with Mark Antony and has three children with him",
+    "Defeated at Actium, 31 BCE"
+  ],
+  "name": "Cleopatra VII",
+  "parents": [],
+  "role": "Queen of Egypt",
+  "short": "Cleopatra",
+  "siblings": [],
+  "spouses": [
+    "caesar"
+  ],
+  "sub": "",
+  "summary": "Last active ruler of Ptolemaic Egypt, partner first of Caesar and then of Antony.",
+  "tree": {
+    "x": 960,
+    "y": 160
+  }
+}

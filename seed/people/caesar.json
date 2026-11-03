@@ -1,0 +1,33 @@
+{
+  "adoptedBy": [],
+  "born": -100,
+  "context": false,
+  "died": -44,
+  "faction": "populares",
+  "fate": "Stabbed to death by senators on the Ides of March, 44 BCE.",
+  "kind": "main",
+  "life": "100–44 BCE",
+  "moments": [
+    "Elected Pontifex Maximus, 63 BCE",
+    "Consul, 59 BCE",
+    "Conquers Gaul, 58–50 BCE",
+    "Crosses the Rubicon, 49 BCE",
+    "Defeats Pompey at Pharsalus, 48 BCE",
+    "Named dictator for life, 44 BCE",
+    "Adopts Octavian in his will"
+  ],
+  "name": "Gaius Julius Caesar",
+  "parents": [],
+  "role": "General and dictator",
+  "short": "Julius Caesar",
+  "siblings": [
+    "julia-minor"
+  ],
+  "spouses": [],
+  "sub": "",
+  "summary": "Politician and general whose conquest of Gaul and victory in civil war ended the Republic in all but name.",
+  "tree": {
+    "x": 560,
+    "y": 20
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "adoptedBy": [],
+  "context": false,
+  "kind": "main",
+  "parents": [],
+  "siblings": [],
+  "spouses": [],
+  "sub": "",
+  "tree": null,
+  "name": "Hannibal Barca",
+  "short": "Hannibal",
+  "born": -247,
+  "died": -183,
+  "life": "247 – c. 183 BCE",
+  "role": "Carthaginian general",
+  "faction": "enemy",
+  "summary": "Carthage's greatest general. He invaded Italy over the Alps and won Rome's worst defeats, but never took the city.",
+  "moments": [
+    "Crosses the Alps into Italy, 218 BCE",
+    "Destroys a Roman army at Cannae, 216 BCE",
+    "Recalled to defend Carthage, 203 BCE",
+    "Defeated by Scipio at Zama, 202 BCE"
+  ],
+  "fate": "Hunted by Rome in exile, he took poison rather than be handed over, c. 183 BCE."
+}

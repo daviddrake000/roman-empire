@@ -1,0 +1,27 @@
+{
+  "adoptedBy": [],
+  "born": -39,
+  "context": false,
+  "died": 14,
+  "faction": "family",
+  "fate": "",
+  "kind": "link",
+  "life": "39 BCE – 14 CE",
+  "moments": [],
+  "name": "Julia the Elder",
+  "parents": [
+    "augustus"
+  ],
+  "role": "Augustus' daughter",
+  "short": "Julia the Elder",
+  "siblings": [],
+  "spouses": [
+    "agrippa"
+  ],
+  "sub": "Daughter, by Scribonia",
+  "summary": "",
+  "tree": {
+    "x": 400,
+    "y": 460
+  }
+}

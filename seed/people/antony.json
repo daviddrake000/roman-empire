@@ -1,0 +1,33 @@
+{
+  "adoptedBy": [],
+  "born": -83,
+  "context": false,
+  "died": -30,
+  "faction": "caesarians",
+  "fate": "Took his own life in Alexandria in August 30 BCE as Octavian's army closed in.",
+  "kind": "main",
+  "life": "83–30 BCE",
+  "moments": [
+    "Consul with Caesar, 44 BCE",
+    "Forms the Second Triumvirate, 43 BCE",
+    "Wins at Philippi, 42 BCE",
+    "Allies with Cleopatra, from 41 BCE",
+    "Marries Octavian's sister Octavia, 40 BCE",
+    "Defeated at Actium, 31 BCE"
+  ],
+  "name": "Marcus Antonius",
+  "parents": [],
+  "role": "General and triumvir",
+  "short": "Mark Antony",
+  "siblings": [],
+  "spouses": [
+    "octavia",
+    "cleopatra"
+  ],
+  "sub": "",
+  "summary": "Caesar's loyal officer and fellow consul, who became Octavian's partner and then his rival.",
+  "tree": {
+    "x": 760,
+    "y": 310
+  }
+}

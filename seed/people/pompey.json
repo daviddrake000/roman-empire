@@ -1,0 +1,31 @@
+{
+  "adoptedBy": [],
+  "born": -106,
+  "context": false,
+  "died": -48,
+  "faction": "optimates",
+  "fate": "Defeated at Pharsalus in 48 BCE, he fled to Egypt and was murdered as he landed.",
+  "kind": "main",
+  "life": "106–48 BCE",
+  "moments": [
+    "Clears the pirates in three months, 67 BCE",
+    "Defeats Mithridates, 66 BCE",
+    "Joins the First Triumvirate, 60 BCE",
+    "Marries Caesar's daughter Julia, 59 BCE",
+    "Leads the Senate's side against Caesar, 49 BCE"
+  ],
+  "name": "Gnaeus Pompeius Magnus",
+  "parents": [],
+  "role": "General and statesman",
+  "short": "Pompey",
+  "siblings": [],
+  "spouses": [
+    "julia-c"
+  ],
+  "sub": "",
+  "summary": "Brilliant general who rose fast under the dictator Sulla and earned the name Magnus, 'the Great'.",
+  "tree": {
+    "x": 770,
+    "y": 160
+  }
+}

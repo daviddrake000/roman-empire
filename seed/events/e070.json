@@ -1,0 +1,16 @@
+{
+  "chapter": 2,
+  "detail": "Given the eastern command, Pompey defeats Mithridates near the Lycus River. Mithridates flees to the Crimea.",
+  "era": "republic",
+  "label": "66 BCE",
+  "note": "Your notes put this in 63 BCE. Pompey's victory was 66 BCE; 63 BCE is when Mithridates died.",
+  "people": [
+    "pompey",
+    "mithridates"
+  ],
+  "place": "lycus",
+  "source": "corrected",
+  "title": "Pompey defeats Mithridates",
+  "tldr": "Pompey finally beats Mithridates and reorganises the East into Roman provinces.",
+  "year": -66
+}

@@ -1,0 +1,16 @@
+{
+  "chapter": 3,
+  "detail": "Caesar defeats Pompey in Greece. Pompey flees to Egypt, where he is murdered on arrival.",
+  "era": "republic",
+  "label": "48 BCE",
+  "note": "Added for context.",
+  "people": [
+    "caesar",
+    "pompey"
+  ],
+  "place": "pharsalus",
+  "source": "added",
+  "title": "Pompey defeated at Pharsalus",
+  "tldr": "Caesar defeats Pompey, who flees to Egypt and is murdered.",
+  "year": -48
+}

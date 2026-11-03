@@ -1,0 +1,25 @@
+{
+  "adoptedBy": [],
+  "born": -76,
+  "context": false,
+  "died": -54,
+  "faction": "family",
+  "fate": "",
+  "kind": "link",
+  "life": "c. 76–54 BCE",
+  "moments": [],
+  "name": "Julia",
+  "parents": [
+    "caesar"
+  ],
+  "role": "Caesar's daughter",
+  "short": "Julia",
+  "siblings": [],
+  "spouses": [],
+  "sub": "Caesar's daughter",
+  "summary": "",
+  "tree": {
+    "x": 600,
+    "y": 160
+  }
+}

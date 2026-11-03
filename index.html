@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#ECEDEA" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#141217" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Roman Empire" />
+    <title>Roman Empire Timeline</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Barlow+Condensed:wght@500;600&display=swap"
+    />
+  </head>
+  <body>
+    <header class="top">
+      <div class="wrap">
+        <div class="brand">
+          <h1>Roman Empire Timeline</h1>
+          <div class="brand-side">
+            <div class="reading" id="reading">Kershaw, <i>A Brief History of the Roman Empire</i></div>
+            <div class="account" id="account"></div>
+          </div>
+        </div>
+        <nav class="tabs" aria-label="Views">
+          <a href="#timeline" data-v="timeline">Timeline</a>
+          <a href="#map" data-v="map">Map</a>
+          <a href="#family" data-v="family">Family tree</a>
+          <a href="#power" data-v="power">Power</a>
+          <a href="#people" data-v="people">People</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="wrap">
+        <div id="status" class="status">Loading your timeline…</div>
+
+        <section data-view="timeline" hidden>
+          <div class="view-intro">
+            <div>
+              <h2>Timeline</h2>
+              <p id="timeline-sub">From the legend of Troy to the death of Augustus.</p>
+            </div>
+            <div class="mode-toggle" role="group" aria-label="Timeline length">
+              <button type="button" data-mode="full" aria-pressed="true">FULL</button>
+              <button type="button" data-mode="tldr" aria-pressed="false">TLDR</button>
+            </div>
+          </div>
+          <div id="timeline"></div>
+        </section>
+
+        <section data-view="map" hidden>
+          <div class="view-intro">
+            <div>
+              <h2>Map</h2>
+              <p>Step through events. The shaded area is Roman territory at the nearest available date.</p>
+            </div>
+          </div>
+          <div class="map-frame">
+            <svg id="map" viewBox="0 0 1000 560" role="img" aria-label="Map of the Mediterranean with Roman territory and event locations"></svg>
+          </div>
+          <div class="map-controls">
+            <div class="btns">
+              <button class="icon-btn" id="prev" aria-label="Previous event">‹</button>
+              <button class="icon-btn" id="play" aria-label="Play through events">Play</button>
+            </div>
+            <input type="range" id="scrub" min="0" max="0" value="0" aria-label="Event" />
+            <div class="btns"><button class="icon-btn" id="next" aria-label="Next event">›</button></div>
+          </div>
+          <div class="map-card" id="mapcard"></div>
+          <p class="credit">
+            Borders are approximate snapshots from the open historical-basemaps project (A. Ourednik), available for 500, 323, 200, 100 and 1 BCE and 100 CE.
+          </p>
+        </section>
+
+        <section data-view="family" hidden>
+          <div class="view-intro">
+            <div>
+              <h2>Family tree</h2>
+              <p>How the Julio-Claudian family connects. Outlined names have dossiers; tap one to open it.</p>
+            </div>
+          </div>
+          <div class="tree-frame">
+            <svg id="tree" role="group" aria-label="Family tree. Drag to move; pinch or Ctrl+scroll to zoom."></svg>
+            <div class="zoom-btns">
+              <button class="icon-btn" id="zoom-in" aria-label="Zoom in">+</button>
+              <button class="icon-btn" id="zoom-out" aria-label="Zoom out">−</button>
+              <button class="icon-btn" id="zoom-fit">Fit</button>
+            </div>
+          </div>
+          <p class="credit">Drag to move around. Pinch, Ctrl+scroll or the buttons zoom in and out.</p>
+          <div class="legend">
+            <span><svg width="26" height="10"><path d="M0 5H26" class="edge-parent" /></svg>Parent</span>
+            <span><svg width="26" height="10"><path d="M0 5H26" class="edge-spouse" /><circle cx="13" cy="5" r="3.5" class="ring-dot" /></svg>Married or partners</span>
+            <span><svg width="26" height="10"><path d="M0 5H26" class="edge-adopt" /></svg>Adopted</span>
+            <span><svg width="26" height="10"><path d="M0 5H26" class="edge-sibling" /></svg>Siblings</span>
+          </div>
+        </section>
+
+        <section data-view="power" hidden>
+          <div class="view-intro">
+            <div>
+              <h2>Power</h2>
+              <p>Who held power in the late Republic, and how alliances formed, broke and passed it on. Tap a dot for its event.</p>
+            </div>
+          </div>
+          <div class="diagram power-scroll">
+            <svg id="power-names" class="power-names"></svg>
+            <svg id="power"></svg>
+          </div>
+          <div class="legend">
+            <span><svg width="26" height="12"><rect x="0" y="1" width="26" height="10" class="band-ally" /></svg>Alliance</span>
+            <span><svg width="26" height="12"><rect x="0" y="1" width="26" height="10" class="band-war" /></svg>Civil war</span>
+            <span><svg width="26" height="12"><path d="M4 2V10" class="handoff" marker-end="url(#arrow)" /></svg>Heir named</span>
+          </div>
+        </section>
+
+        <section data-view="people" hidden>
+          <div class="view-intro">
+            <div>
+              <h2>People</h2>
+              <p id="people-intro">Dossiers for the key figures.</p>
+            </div>
+          </div>
+          <div class="grid" id="people"></div>
+        </section>
+      </div>
+    </main>
+
+    <div class="overlay" id="overlay" hidden>
+      <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="dossier-name" id="sheet"></div>
+    </div>
+    <div class="toast" id="toast" role="status" hidden></div>
+    <input type="file" id="file" accept="image/*" hidden />
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

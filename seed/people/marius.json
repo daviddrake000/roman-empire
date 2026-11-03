@@ -1,0 +1,26 @@
+{
+  "adoptedBy": [],
+  "context": false,
+  "kind": "main",
+  "parents": [],
+  "siblings": [],
+  "spouses": [],
+  "sub": "",
+  "tree": null,
+  "name": "Gaius Marius",
+  "short": "Marius",
+  "born": -157,
+  "died": -86,
+  "life": "157–86 BCE",
+  "role": "General, seven times consul",
+  "faction": "populares",
+  "summary": "A \"new man\" from outside Rome's old families who became its leading general. He recruited landless volunteers, whose loyalty went to their commander.",
+  "moments": [
+    "First consul, 107 BCE",
+    "Ends the war with Jugurtha in Africa, 105 BCE",
+    "Defeats the Cimbri and Teutones, 102–101 BCE",
+    "Driven out of Rome by Sulla, 88 BCE",
+    "Seventh consulship, 86 BCE"
+  ],
+  "fate": "Died of illness in January 86 BCE, days into his seventh consulship."
+}

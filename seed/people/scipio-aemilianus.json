@@ -1,0 +1,24 @@
+{
+  "adoptedBy": [],
+  "context": false,
+  "kind": "main",
+  "parents": [],
+  "siblings": [],
+  "spouses": [],
+  "sub": "",
+  "tree": null,
+  "name": "Publius Cornelius Scipio Aemilianus",
+  "short": "Scipio Aemilianus",
+  "born": -185,
+  "died": -129,
+  "life": "c. 185–129 BCE",
+  "role": "General who destroyed Carthage",
+  "faction": "republic",
+  "summary": "Adoptive grandson of Scipio Africanus. He ended the Third Punic War by razing Carthage.",
+  "moments": [
+    "Consul, 147 BCE",
+    "Destroys Carthage, 146 BCE",
+    "Takes Numantia in Spain, 133 BCE"
+  ],
+  "fate": "Found dead in his bed in 129 BCE, possibly murdered."
+}

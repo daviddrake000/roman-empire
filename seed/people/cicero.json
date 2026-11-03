@@ -1,0 +1,25 @@
+{
+  "adoptedBy": [],
+  "context": false,
+  "kind": "main",
+  "parents": [],
+  "siblings": [],
+  "spouses": [],
+  "sub": "",
+  "tree": null,
+  "name": "Marcus Tullius Cicero",
+  "short": "Cicero",
+  "born": -106,
+  "died": -43,
+  "life": "106–43 BCE",
+  "role": "Orator and statesman",
+  "faction": "optimates",
+  "summary": "Rome's greatest orator and a defender of the Republic. His speeches and letters are a main source for its last years.",
+  "moments": [
+    "Consul, 63 BCE",
+    "Exposes Catiline's conspiracy, 63 BCE",
+    "Exiled, 58–57 BCE",
+    "Attacks Antony in the Philippics, 44–43 BCE"
+  ],
+  "fate": "Killed by Antony's soldiers near Formiae on 7 December 43 BCE; his head and hands were displayed in the Forum."
+}

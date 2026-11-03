@@ -1,0 +1,17 @@
+{
+  "chapter": 3,
+  "detail": "On the Ides of March, senators led by Brutus and Cassius stab Caesar to death at a Senate meeting in the Curia of Pompey.",
+  "era": "republic",
+  "label": "15 March 44 BCE",
+  "note": "Location corrected: the Senate met in the Curia of Pompey, next to Pompey's Theatre, because the regular Senate House was being rebuilt.",
+  "people": [
+    "caesar",
+    "brutus",
+    "cassius"
+  ],
+  "place": "rome",
+  "source": "corrected",
+  "title": "Julius Caesar is assassinated",
+  "tldr": "Senators led by Brutus and Cassius stab Caesar on the Ides of March.",
+  "year": -44
+}

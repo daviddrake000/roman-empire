@@ -1,0 +1,36 @@
+{
+  "adoptedBy": [
+    "caesar"
+  ],
+  "born": -63,
+  "context": false,
+  "died": 14,
+  "faction": "caesarians",
+  "fate": "Died at Nola on 19 August 14 CE and was declared a god.",
+  "kind": "main",
+  "life": "63 BCE – 14 CE",
+  "moments": [
+    "Born 23 September 63 BCE",
+    "Adopted as Caesar's heir, 44 BCE",
+    "Forms the Second Triumvirate, 43 BCE",
+    "Defeats Antony and Cleopatra at Actium, 31 BCE",
+    "Named Augustus by the Senate, 27 BCE",
+    "Adopts Tiberius, 4 CE"
+  ],
+  "name": "Augustus (Octavian)",
+  "parents": [
+    "atia"
+  ],
+  "role": "First Roman emperor",
+  "short": "Augustus",
+  "siblings": [],
+  "spouses": [
+    "livia"
+  ],
+  "sub": "",
+  "summary": "Born Gaius Octavius, Julius Caesar's great-nephew. Adopted in Caesar's will, he won the civil wars and became Rome's first emperor.",
+  "tree": {
+    "x": 400,
+    "y": 310
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "adoptedBy": [],
+  "born": -47,
+  "context": false,
+  "died": -30,
+  "faction": "family",
+  "fate": "",
+  "kind": "link",
+  "life": "47–30 BCE",
+  "moments": [],
+  "name": "Caesarion",
+  "parents": [
+    "cleopatra"
+  ],
+  "role": "Son of Caesar and Cleopatra",
+  "short": "Caesarion",
+  "siblings": [],
+  "spouses": [],
+  "sub": "Son of Caesar",
+  "summary": "",
+  "tree": {
+    "x": 960,
+    "y": 310
+  }
+}

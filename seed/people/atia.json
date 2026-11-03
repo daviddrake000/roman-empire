@@ -1,0 +1,25 @@
+{
+  "adoptedBy": [],
+  "born": -85,
+  "context": false,
+  "died": -43,
+  "faction": "family",
+  "fate": "",
+  "kind": "link",
+  "life": "c. 85–43 BCE",
+  "moments": [],
+  "name": "Atia",
+  "parents": [
+    "julia-minor"
+  ],
+  "role": "Mother of Augustus",
+  "short": "Atia",
+  "siblings": [],
+  "spouses": [],
+  "sub": "Augustus' mother",
+  "summary": "",
+  "tree": {
+    "x": 40,
+    "y": 160
+  }
+}

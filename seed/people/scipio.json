@@ -1,0 +1,25 @@
+{
+  "adoptedBy": [],
+  "context": false,
+  "kind": "main",
+  "parents": [],
+  "siblings": [],
+  "spouses": [],
+  "sub": "",
+  "tree": null,
+  "name": "Publius Cornelius Scipio Africanus",
+  "short": "Scipio Africanus",
+  "born": -236,
+  "died": -183,
+  "life": "236–183 BCE",
+  "role": "General who defeated Hannibal",
+  "faction": "republic",
+  "summary": "Roman general who drove Carthage out of Spain and then beat Hannibal in Africa, ending the Second Punic War.",
+  "moments": [
+    "Takes New Carthage in Spain, 209 BCE",
+    "Consul, 205 BCE",
+    "Invades Africa, 204 BCE",
+    "Defeats Hannibal at Zama, 202 BCE"
+  ],
+  "fate": "Withdrew from public life after his family was prosecuted and died at Liternum, c. 183 BCE."
+}

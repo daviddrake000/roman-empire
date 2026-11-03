@@ -1,0 +1,11 @@
+{
+  "end": -53,
+  "kind": "alliance",
+  "label": "First Triumvirate",
+  "people": [
+    "pompey",
+    "crassus",
+    "caesar"
+  ],
+  "start": -60
+}
